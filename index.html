@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VM Pet Shop | Banho e Tosa Premium</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>VM Pet Shop</h1>
+
+            <nav>
+                <a href="#servicos">Serviços</a>
+                <a href="#agendamento">Agendamento</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Banho e Tosa Premium para seu melhor amigo</h2>
+
+                <p>
+                    Atendimento especializado, profissionais qualificados e
+                    cuidados de alto padrão para cães de todas as raças.
+                </p>
+
+                <a href="#agendamento" class="btn-cta">
+                    Agendar Agora
+                </a>
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+
+        <section id="servicos" class="services">
+
+            <h2>Nossos Serviços</h2>
+
+            <div class="cards">
+
+                <article class="card destaque">
+
+                    <span class="badge">
+                        Mais Vendido
+                    </span>
+
+                    <h3>Banho + Tosa Higiênica</h3>
+
+                    <p class="tempo">
+                        ⏱ Tempo médio: 1h30
+                    </p>
+
+                    <p class="descricao">
+                        Banho completo, hidratação,
+                        secagem profissional e tosa higiênica.
+                    </p>
+
+                    <span class="preco">
+                        R$ 79,90
+                    </span>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>Banho Premium</h3>
+
+                    <p class="tempo">
+                        ⏱ Tempo médio: 1h
+                    </p>
+
+                    <p class="descricao">
+                        Higienização completa com produtos premium.
+                    </p>
+
+                    <span class="preco">
+                        R$ 49,90
+                    </span>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>Tosa na Tesoura</h3>
+
+                    <p class="tempo">
+                        ⏱ Tempo médio: 2h
+                    </p>
+
+                    <p class="descricao">
+                        Acabamento artesanal para um visual elegante.
+                    </p>
+
+                    <span class="preco">
+                        R$ 119,90
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- AGENDAMENTO -->
+
+        <section id="agendamento" class="schedule">
+
+            <h2>Solicitar Agendamento</h2>
+
+            <form id="bookingForm">
+
+                <div class="input-group">
+                    <label>Nome do Pet</label>
+                    <input type="text" id="petName">
+                </div>
+
+                <div class="input-group">
+                    <label>Raça</label>
+                    <input type="text" id="breed">
+                </div>
+
+                <div class="input-group">
+                    <label>Telefone</label>
+                    <input
+                        type="text"
+                        id="phone"
+                        maxlength="15"
+                        placeholder="(00) 00000-0000">
+                </div>
+
+                <div class="input-group">
+                    <label>Data</label>
+                    <input type="date" id="date">
+                </div>
+
+                <div class="input-group">
+                    <label>Serviço</label>
+
+                    <select id="service">
+
+                        <option value="">
+                            Selecione
+                        </option>
+
+                        <option>
+                            Banho Premium
+                        </option>
+
+                        <option>
+                            Banho + Tosa Higiênica
+                        </option>
+
+                        <option>
+                            Tosa na Tesoura
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    Solicitar Agendamento
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 VM Pet Shop - Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- ALERTA -->
+
+    <div id="alertBox" class="alert-box"></div>
+
+    <script src="jss/script.js"></script>
+
+</body>
+
+</html>
